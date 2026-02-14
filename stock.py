@@ -22,9 +22,9 @@ KOREA_STOCKS = {
 # --- 2. 데이터 초기화 ---
 if 'users' not in st.session_state:
     st.session_state.users = {
-        "노강민": {"pw": "0000", "slack": "https://hooks.slack.com/services/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", "watchlist": ["NVDA", "005930.KS"]},
-        "사용자2": {"pw": "1234", "slack": "", "watchlist": ["TSLA"]},
-        "사용자3": {"pw": "5678", "slack": "", "watchlist": ["AAPL"]}
+        "노강민": {"pw": "1203", "slack": "https://hooks.slack.com/services/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", "watchlist": ["NVDA", "005930.KS"]},
+        "엄윤선": {"pw": "0224", "slack": "https://hooks.slack.com/services/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", "watchlist": ["TSLA"]},
+        "노영신": {"pw": "0417", "slack": "", "watchlist": ["AAPL"]}
     }
 if 'alarm_list' not in st.session_state:
     st.session_state.alarm_list = []
